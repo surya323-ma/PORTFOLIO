@@ -37,7 +37,9 @@ html,body,[data-testid="stAppViewContainer"]{
 .stDeployButton{display:none !important;}
 [data-testid="stAppViewContainer"]>div{position:relative;z-index:1;}
 [data-testid="block-container"]{
-    max-width:980px !important;padding:0 24px 60px !important;margin:0 auto !important;
+    max-width: 100% !important;
+    padding: 0 40px 60px !important;
+    margin: 0 auto !important;
 }
 [data-testid="stSidebar"]{
     background:#0a1628 !important;
@@ -199,13 +201,8 @@ if page == "HOME":
             <span style="color:#ff3d7a;margin:0 8px;">/</span>
             <span style="color:#7a9bb5;">Data Scientist</span>
           </div>
-          <div style="font-size:14px;color:#7a9bb5;line-height:1.8;max-width:500px;margin-bottom:26px;">
-            𝓑𝓾𝓲𝓵𝓭𝓲𝓷𝓰 𝓲𝓷𝓽𝓮𝓵𝓵𝓲𝓰𝓮𝓷𝓽 𝓼𝔂𝓼𝓽𝓮𝓶𝓼 𝓪𝓽 𝓽𝓱𝓮 𝓲𝓷𝓽𝓮𝓻𝓼𝓮𝓬𝓽𝓲𝓸𝓷 𝓸𝓯
-            <span style="color:#00d2ff;">deep learning</span>,
-            <span style="color:#a67dff;">data pipelines</span>, and
-            <span style="color:#ff3d7a;">production ML</span>.
-              𝓒𝓾𝓻𝓻𝓮𝓷𝓽𝓵𝔂 𝓹𝓾𝓻𝓼𝓾𝓲𝓷𝓰  𝓐𝓘 &amp;𝓜𝓛 𝓪𝓽
-           <strong style="color:#e8f4ff;"> 𝘼𝙡𝙡𝙚𝙣𝙝𝙤𝙪𝙨𝙚 𝙄𝙣𝙨𝙩𝙞𝙩𝙪𝙩𝙚 𝙤𝙛 𝙏𝙚𝙘𝙝𝙣𝙤𝙡𝙤𝙜𝙮 </strong>.
+          <div style="font-size:14px;color:#7a9bb5;line-height:1.8;max-width:900px;margin-bottom:26px;">
+                Final-year B.Tech (AI & ML) student and aspiring Data Scientist with hands-on internship experience in machine learning, statistical analysis, and data analytics. Proficient in Python, SQL, and scikit-learn with demonstrated ability to build predictive models, automate data workflows, and communicate insights via Power BI and Streamlit dashboards. Knowledgeable in Generative AI concepts, Agentic AI frameworks, and Model Context Protocol (MCP). Experienced in translating complex datasets into actionable business decisions for cross-functional stakeholders. deep learning, data pipelines, and production ML. 
           </div>
           <div style="display:flex;gap:10px;flex-wrap:wrap;">
             <a href="https://www.linkedin.com/in/surya-omar-3538a527b" target="_blank"
@@ -330,14 +327,14 @@ if page == "HOME":
     st.markdown("""
     <div style="background:#0a1628;border:1px solid rgba(0,210,255,0.15);
                 border-radius:12px;padding:22px;">
-      <p style="font-size:26px;color:#9ab8d0;line-height:1.8;margin-bottom:12px;">
-        𝓗𝓮𝔂! 𝓘'𝓶 <strong style="color:#e8f4ff;">𝓢𝓾𝓻𝔂𝓪 𝓞𝓶𝓪𝓻</𝓼𝓽𝓻𝓸𝓷𝓰>, 𝓪𝓷 𝓐𝓘 & 𝓜𝓛 𝓮𝓷𝓰𝓲𝓷𝓮𝓮𝓻𝓲𝓷𝓰 𝓼𝓽𝓾𝓭𝓮𝓷𝓽 𝓪𝓽 𝓐𝓵𝓵𝓮𝓷𝓱𝓸𝓾𝓼𝓮 𝓘𝓷𝓼𝓽𝓲𝓽𝓾𝓽𝓮 𝓸𝓯 𝓣𝓮𝓬𝓱𝓷𝓸𝓵𝓸𝓰𝔂, 𝓹𝓪𝓼𝓼𝓲𝓸𝓷𝓪𝓽𝓮 𝓪𝓫𝓸𝓾𝓽 𝓫𝓾𝓲𝓵𝓭𝓲𝓷𝓰 𝓻𝓮𝓪𝓵-𝔀𝓸𝓻𝓵𝓭 𝓲𝓷𝓽𝓮𝓵𝓵𝓲𝓰𝓮𝓷𝓽 𝓼𝔂𝓼𝓽𝓮𝓶𝓼 — 𝓯𝓻𝓸𝓶 𝓯𝓲𝓷𝓮-𝓽𝓾𝓷𝓲𝓷𝓰 𝓛𝓛𝓜𝓼 𝓽𝓸 𝓭𝓮𝓿𝓮𝓵𝓸𝓹𝓲𝓷𝓰 𝓪𝓷𝓭 𝓭𝓮𝓹𝓵𝓸𝔂𝓲𝓷𝓰 𝓼𝓬𝓪𝓵𝓪𝓫𝓵𝓮, 𝓹𝓻𝓸𝓭𝓾𝓬𝓽𝓲𝓸𝓷-𝓻𝓮𝓪𝓭𝔂 𝓜𝓛 𝓼𝓸𝓵𝓾𝓽𝓲𝓸𝓷𝓼.
-      </p>
+      <p style="font-size:18px;color:#9ab8d0;line-height:1.8;margin-bottom:12px;">
+        Hey! I'm <strong style="color:#e8f4ff;">Surya Omar</strong>, an AI & ML engineering student at Allenhouse Institute of Technology. I build intelligent systems using machine learning, data analytics, and modern AI tools.
+Skilled in Python, SQL, and ML frameworks, I focus on developing scalable solutions, from predictive modeling to deploying real-world applications. I’m especially interested in Generative AI and LLM-based systems.</p>
       <p style="font-size:14px;color:#9ab8d0;line-height:1.8;">
-        𝕄𝕪 𝕖𝕩𝕡𝕖𝕣𝕥𝕚𝕤𝕖 𝕤𝕡𝕒𝕟𝕤<span style="color:#00d2ff;">𝕃𝕒𝕣𝕘𝕖 𝕃𝕒𝕟𝕘𝕦𝕒𝕘𝕖 𝕄𝕠𝕕𝕖𝕝𝕤 </span>,
-        <span style="color:#a67dff;">ℂ𝕠𝕞𝕡𝕦𝕥𝕖𝕣 𝕍𝕚𝕤𝕚𝕠𝕟</span>,
-        <span style="color:#ff7aaa;">ℕ𝕃ℙ </span>, and
-        <span style="color:#00ff9d;">𝔻𝕒𝕥𝕒 𝔸𝕟𝕒𝕝𝕪𝕥𝕚𝕔𝕤. </span>.
+        My expertise spans <span style="color:#00d2ff;">Large Language Models</span>, 
+<span style="color:#a67dff;">Computer Vision</span>, 
+<span style="color:#ff7aaa;">NLP</span>, and 
+<span style="color:#00ff9d;">Data Analytics</span> — focused on building scalable and impactful AI solutions.
       </p>
     </div>
     """, unsafe_allow_html=True)
@@ -856,6 +853,9 @@ elif page == "CONTACT":
         ("💼","LINKEDIN","surya-omar-3538a527b","https://www.linkedin.com/in/surya-omar-3538a527b","#00d2ff"),
         ("🐙","GITHUB","surya323-ma","https://github.com/surya323-ma","#a67dff"),
         ("🏆","CODOLIO","surya323","https://codolio.com/profile/surya323","#00ff9d"),
+        ("📞","PHONE","+91-9794667615","tel:+91XXXXXXXXXX","#00ff9d"),
+        ("📧","EMAIL","suryaomar323@gmail.com","mailto:suryaomar323@gmail.com","#ff7aaa"),
+        
         ("🎓","INSTITUTION","Allenhouse Institute of Technology","#","#ffb800"),
     ]
     cols = st.columns(2, gap="medium")
@@ -884,12 +884,38 @@ elif page == "CONTACT":
         email_in = st.text_input("YOUR EMAIL", placeholder="your@email.com")
     msg_in = st.text_area("MESSAGE", placeholder="Tell me about your project or opportunity...", height=120)
     col_btn, _ = st.columns([1,3])
-    with col_btn:
-        if st.button("SEND ↗"):
-            if name_in and email_in and msg_in:
-                st.success("✅ Message sent! I'll get back to you soon.")
-            else:
-                st.warning("Please fill all fields.")
+    import urllib.parse
+
+if st.button("SEND ↗"):
+    if name_in and email_in and msg_in:
+
+        # 📧 Gmail link
+        subject = urllib.parse.quote(f"Portfolio Contact from {name_in}")
+        body = urllib.parse.quote(f"Name: {name_in}\nEmail: {email_in}\n\nMessage:\n{msg_in}")
+
+        gmail_url = f"mailto:Suryaomar323@gmail.com?subject={subject}&body={body}"
+
+        # 💬 WhatsApp link
+        whatsapp_url = f"https://wa.me/919794667615?text={body}"
+
+        st.markdown(f"""
+        <a href="{gmail_url}" target="_blank"
+           style="display:inline-block;margin:10px 10px 0 0;
+                  padding:10px 18px;border-radius:6px;
+                  background:#ff7aaa;color:white;text-decoration:none;">
+            📧 Send via Gmail
+        </a>
+
+        <a href="{whatsapp_url}" target="_blank"
+           style="display:inline-block;margin-top:10px;
+                  padding:10px 18px;border-radius:6px;
+                  background:#25D366;color:white;text-decoration:none;">
+            💬 Send via WhatsApp
+        </a>
+        """, unsafe_allow_html=True)
+
+    else:
+        st.warning("Please fill all fields.")
 
 # ─── FOOTER ───────────────────────────────────────────────────────────────────
 st.markdown("<div style='height:40px'></div>", unsafe_allow_html=True)

@@ -884,38 +884,12 @@ elif page == "CONTACT":
         email_in = st.text_input("YOUR EMAIL", placeholder="your@email.com")
     msg_in = st.text_area("MESSAGE", placeholder="Tell me about your project or opportunity...", height=120)
     col_btn, _ = st.columns([1,3])
-    import urllib.parse
-
-if st.button("SEND ↗"):
-    if name_in and email_in and msg_in:
-
-        # 📧 Gmail link
-        subject = urllib.parse.quote(f"Portfolio Contact from {name_in}")
-        body = urllib.parse.quote(f"Name: {name_in}\nEmail: {email_in}\n\nMessage:\n{msg_in}")
-
-        gmail_url = f"mailto:Suryaomar323@gmail.com?subject={subject}&body={body}"
-
-        # 💬 WhatsApp link
-        whatsapp_url = f"https://wa.me/919794667615?text={body}"
-
-        st.markdown(f"""
-        <a href="{gmail_url}" target="_blank"
-           style="display:inline-block;margin:10px 10px 0 0;
-                  padding:10px 18px;border-radius:6px;
-                  background:#ff7aaa;color:white;text-decoration:none;">
-            📧 Send via Gmail
-        </a>
-
-        <a href="{whatsapp_url}" target="_blank"
-           style="display:inline-block;margin-top:10px;
-                  padding:10px 18px;border-radius:6px;
-                  background:#25D366;color:white;text-decoration:none;">
-            💬 Send via WhatsApp
-        </a>
-        """, unsafe_allow_html=True)
-
-    else:
-        st.warning("Please fill all fields.")
+    with col_btn:
+        if st.button("SEND ↗"):
+            if name_in and email_in and msg_in:
+                st.success("✅ Message sent! I'll get back to you soon.")
+            else:
+                st.warning("Please fill all fields.")
 
 # ─── FOOTER ───────────────────────────────────────────────────────────────────
 st.markdown("<div style='height:40px'></div>", unsafe_allow_html=True)
